@@ -21,6 +21,19 @@ class App extends Component {
           </a>
           
         </header>
+        <div className="container">
+      <div className="row">
+        <div className="bootstrap-test">
+          1 of 3
+        </div>
+        <div className="bootstrap-test">
+          2 of 3
+        </div>
+        <div className="bootstrap-test">
+          3 of 3
+        </div>
+      </div>
+      </div>
       </div>
     );
   }
