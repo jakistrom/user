@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.Background{
+    @extend .container-fluid;
+    
+    height: 60vh;
+    opacity: 1;
+    background: #F0C13A;
+    background: -webkit-linear-gradient(-45deg, #F0C13A 0%, #F73347 100%);
+    background: -moz-linear-gradient(-45deg, #F0C13A 0%, #F73347 100%);
+    background: linear-gradient(135deg, #F0C13A 0%, #F73347 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0C13A', endColorstr='#F73347',GradientType=1);
+}
+

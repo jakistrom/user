@@ -27,7 +27,7 @@ class Header extends Component {
         <header className="Header">
          <nav className="navbar navbar-expand-lg navbar-light unique-color-light">
                 <a className="navbar-brand" href="#"><img src={logo} height="30" alt="" /></a>
-                <button onclick={this.burgerClick} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button onClick={this.burgerClick} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse " id="navbarCollapse">

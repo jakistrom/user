@@ -1,6 +1,6 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
-.App{
-    @extend .container-fluid;
+.Main{
+    @extend .row;
+   
 }
-
